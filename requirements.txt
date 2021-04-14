@@ -1,0 +1,4 @@
+youtube-dl
+ytdlp
+ffmpeg
+aria2p

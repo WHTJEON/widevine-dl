@@ -74,7 +74,6 @@ merge_content()
 divider()
 print("Process Finished. Final Video File is saved in /output directory.")
 divider()
-
 delete_choice = input("Delete cache files? Enter yes or no: ")
 	
 if delete_choice == "yes":

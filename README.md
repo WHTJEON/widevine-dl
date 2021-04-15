@@ -9,6 +9,14 @@ pip install ffmpeg ytdl-p aria2p
 ```
 - You must add mp4decrypt to `PATH` in order to run this script!
 
+## Installation & Run
+1. Download and Extract ZIP from [Releases](https://github.com/WHTJEON/widevine-dl/releases)
+2. Install Requirements
+3. Run widevine-dl.py
+```
+python3 widevine-dl.py
+```
+
 ## Inputs
 - `WideVineDecryptor Prompt` - Copy from widevine-l3-decryptor extension *(like the format below)*
 ```

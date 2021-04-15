@@ -2,7 +2,7 @@
 Encrypted MPD Manifest Content Downloader + Decryptor<br>
 
 ## Requirements
-- ffmpeg, ytdl-p, aria2c, widevine-l3-decryptor, [mp4decrypt](https://www.bento4.com/downloads/)
+- ffmpeg, ytdl-p, aria2, widevine-l3-decryptor, [mp4decrypt](https://www.bento4.com/downloads/)
 
 ```
 pip install ffmpeg youtube-dl ytdl-p aria2p

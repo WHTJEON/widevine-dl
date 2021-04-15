@@ -20,5 +20,5 @@ WidevineDecryptor: Found key: 100b6c20940f779a4589152b57d2dacb (KID=eb676abbcb34
 - `AUDIO_ID` - Audio Track ID Shown in Stream Info 
 - `FILENAME` - Desired File Name of Final Decrypted File *(with extension!)*
 
-### Warning
-- DO NOT use this for Copyright Enfringement!
+### Legal Disclaimer
+This is for educational purposes only. Downloading copyrighted materials from streaming services may violate their Terms of Service. Use at your own risk.

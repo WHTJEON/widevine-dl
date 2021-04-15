@@ -53,8 +53,8 @@ def decrypt_content():
 	extract_key(KEY_PROMPT)
 	divider()
 	print("Decrypting WideVine DRM..")
-	os.system('mp4decrypt %s/encrypted.f%s.mp4 %s/decrypted_video.mp4 --key %s --show-progress'%(TEMPORARY_PATH,TEMPORARY_PATH,VIDEO_ID,keys))
-	os.system('mp4decrypt %s/encrypted.f%s.m4a %s/decrypted_audio.m4a --key %s --show-progress'%(TEMPORARY_PATH,TEMPORARY_PATH,AUDIO_ID,keys))
+	os.system('mp4decrypt %s/encrypted.f%s.mp4 %s/decrypted_video.mp4 --key %s --show-progress'%(TEMPORARY_PATH,VIDEO_ID,TEMPORARY_PATH,keys))
+	os.system('mp4decrypt %s/encrypted.f%s.m4a %s/decrypted_audio.m4a --key %s --show-progress'%(TEMPORARY_PATH,AUDIO_ID,TEMPORARY_PATH,keys))
 	print("Decryption Complete!")
 
 def merge_content():
@@ -74,6 +74,7 @@ merge_content()
 divider()
 print("Process Finished. Final Video File is saved in /output directory.")
 divider()
+
 delete_choice = input("Delete cache files? Enter yes or no: ")
 	
 if delete_choice == "yes":

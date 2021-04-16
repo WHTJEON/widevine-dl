@@ -18,7 +18,7 @@ $ python3 widevine-dl.py
 ```
 
 ## Inputs
-- `WideVineDecryptor Prompt` - Copy from widevine-l3-decryptor extension *(like the format below)*
+- `WideVineDecryptor Prompt` - Copy from widevine-l3-decryptor extension *(exactly like the format below)*
 ```
 WidevineDecryptor: Found key: 100b6c20940f779a4589152b57d2dacb (KID=eb676abbcb345e96bbcf616630f1a3da)
 ```

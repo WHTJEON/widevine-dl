@@ -8,6 +8,10 @@ Encrypted MPD Manifest Content Downloader + Decryptor<br>
 $ pip install ffmpeg yt-dlp aria2p
 ```
 - ~~You must add mp4decrypt to `PATH` in order to run this script!~~
+- For Linux Users, it is recommended to install aria2 with apt.
+```
+$ sudo apt-get install aria2
+```
 
 ## Installation & Run
 1. Download and Extract ZIP from [Releases](https://github.com/WHTJEON/widevine-dl/releases)

@@ -2,10 +2,10 @@
 Encrypted MPD Manifest Content Downloader + Decryptor<br>
 
 ## Requirements
-- ffmpeg, ytdl-p, aria2, widevine-l3-decryptor
+- ffmpeg, yt-dlp, aria2, widevine-l3-decryptor
 
 ```
-$ pip install ffmpeg ytdl-p aria2p
+$ pip install ffmpeg yt-dlp aria2p
 ```
 - ~~You must add mp4decrypt to `PATH` in order to run this script!~~
 

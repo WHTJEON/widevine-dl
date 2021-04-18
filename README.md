@@ -1,4 +1,4 @@
-# Widevine-DL  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) 
+# Widevine-DL  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Github All Releases](https://img.shields.io/github/downloads/WHTJEON/widevine-dl/total.svg)]()
 Encrypted MPD Manifest Content Downloader + Decryptor<br>
 
 ## Requirements

@@ -44,11 +44,11 @@ def download_drm_content(mpd_url):
 	divider()
 	VIDEO_ID = input("ENTER VIDEO_ID (Press Enter for Default): ")
 	if VIDEO_ID == "":
-		VIDEO_ID = "video_avc1"
+		VIDEO_ID = "best"
 	
 	AUDIO_ID = input("ENTER AUDIO_ID (Press Enter for Default): ")
 	if AUDIO_ID == "":
-		AUDIO_ID = "audio_und_mp4a"
+		AUDIO_ID = "best"
 	
 	divider()
 	print("Downloading Encrypted Video from CDN..")	

@@ -10,7 +10,7 @@ Encrypted MPD Manifest Content Downloader + Decryptor<br>
 $ pip install ffmpeg yt-dlp aria2p
 ```
 - ~~You must add mp4decrypt to `PATH` in order to run this script!~~
-- For Linux Users, it is recommended to install aria2 with apt.
+- For Linux Users, it is recommended to install aria2 with apt. 
 ```
 $ sudo apt-get install aria2
 ```
@@ -24,7 +24,7 @@ $ python3 widevine-dl.py
 ```
 
 ## Inputs
-- `WideVineDecryptor Prompt` - Copy from widevine-l3-decryptor extension *(exactly like the format below)*
+- `WideVineDecryptor Prompt` - Copy from widevine-l3-decryptor extension *(**exactly like the format below**)*
 ```
 WidevineDecryptor: Found key: 100b6c20940f779a4589152b57d2dacb (KID=eb676abbcb345e96bbcf616630f1a3da)
 ```
@@ -33,6 +33,10 @@ WidevineDecryptor: Found key: 100b6c20940f779a4589152b57d2dacb (KID=eb676abbcb34
 - `AUDIO_ID` - Audio Track ID Shown in Stream Info 
 - `FILENAME` - Desired File Name of Final Decrypted File *(with extension!)*
 
-## Legal Disclaimer
+## Legal Notice
 Educational purposes only. Downloading DRM'ed materials may violate their Terms of Service.
+
+##
+If you enjoyed using the script, a star or a follow will be highly appreciated! 😎
+
 

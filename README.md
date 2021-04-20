@@ -1,7 +1,7 @@
 # Widevine-DL     
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Github All Releases](https://img.shields.io/github/downloads/WHTJEON/widevine-dl/total.svg)]() [![License](https://img.shields.io/github/license/WHTJEON/widevine-dl.svg)](https://github.com/WHTJEON/widevine-dl)
 
-Encrypted MPD Manifest Content Downloader + Decryptor<br>
+Encrypted MPD Manifest Content Downloader + Decryptor (not a Widevine Key Extractor!)<br>
 
 ## Requirements
 - ffmpeg, yt-dlp, aria2, widevine-l3-decryptor

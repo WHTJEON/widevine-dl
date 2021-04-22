@@ -42,13 +42,13 @@ def download_drm_content(mpd_url):
 	print("Processing Video Info..")
 	os.system('yt-dlp --external-downloader aria2c --no-warnings --allow-unplayable-formats --no-check-certificate -F "%s"'%mpd_url)
 	divider()
-	VIDEO_ID = input("ENTER VIDEO_ID (Press Enter for Default): ")
+	VIDEO_ID = input("ENTER VIDEO_ID (Press Enter for Best): ")
 	if VIDEO_ID == "":
-		VIDEO_ID = "best"
+		VIDEO_ID = "bv"
 	
-	AUDIO_ID = input("ENTER AUDIO_ID (Press Enter for Default): ")
+	AUDIO_ID = input("ENTER AUDIO_ID (Press Enter for Best): ")
 	if AUDIO_ID == "":
-		AUDIO_ID = "best"
+		AUDIO_ID = "ba"
 	
 	divider()
 	print("Downloading Encrypted Video from CDN..")	

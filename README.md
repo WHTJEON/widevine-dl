@@ -29,8 +29,8 @@ $ python3 widevine-dl.py
 WidevineDecryptor: Found key: 100b6c20940f779a4589152b57d2dacb (KID=eb676abbcb345e96bbcf616630f1a3da)
 ```
 - `MPD URL` - MPD URL of Widevine Content
-- `VIDEO_ID` - Video Track ID Shown in Stream Info 
-- `AUDIO_ID` - Audio Track ID Shown in Stream Info 
+- `VIDEO_ID` - Video Track ID Shown in Stream Info *(Leave blank for best)*
+- `AUDIO_ID` - Audio Track ID Shown in Stream Info *(Leave blank for best)*
 - `FILENAME` - Desired File Name of Final Decrypted File *(with extension!)*
 
 ## Legal Notice

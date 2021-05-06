@@ -31,6 +31,7 @@ WidevineDecryptor: Found key: 100b6c20940f779a4589152b57d2dacb (KID=eb676abbcb34
 - `VIDEO_ID` - Video Track ID Shown in Stream Info *(Leave blank for best)*
 - `AUDIO_ID` - Audio Track ID Shown in Stream Info *(Leave blank for best)*
 - `FILENAME` - Desired File Name of Final Decrypted File *(with extension!)*
+- If you only want to _download_ the encrypted content from the MPD File not _decrypt_ it, simply leave the `WideVineDecryptor Prompt` empty.
 
 ## Legal Notice
 Educational purposes only. Downloading DRM'ed materials may violate their Terms of Service.

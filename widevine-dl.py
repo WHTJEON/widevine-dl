@@ -85,24 +85,26 @@ def merge_content():
 	time.sleep(2)
 	os.system('ffmpeg -i %s/decrypted_video.mp4 -i %s/decrypted_audio.m4a -c:v copy -c:a copy %s/%s'%(TEMPORARY_PATH,TEMPORARY_PATH,OUTPUT_PATH,FILENAME))
 
-divider()
-print("**** Widevine-DL by vank0n ****")
-divider()
-MPD_URL = input("Enter MPD URL: \n> ")
-KEY_PROMPT = input("Enter WideVineDecryptor Prompt: \n> ")
-download_drm_content(MPD_URL)
-decrypt_content()
-merge_content()
-divider()
-print("Process Finished. Final Video File is saved in /output directory.")
-divider()
 
-delete_choice = input("Delete cache files? (y/n)\ny) Yes (default)\nn) No\ny/n> ")
-
-if delete_choice == "n":
+if __name__ == '__main__':
 	divider()
-else:
-	empty_folder(TEMPORARY_PATH)
+	print("**** Widevine-DL by vank0n ****")
+	divider()
+	MPD_URL = input("Enter MPD URL: \n> ")
+	KEY_PROMPT = input("Enter WideVineDecryptor Prompt (PSSH key | check README.md): \n> ")
+	download_drm_content(MPD_URL)
+	decrypt_content()
+	merge_content()
+	divider()
+	print("Process Finished. Final Video File is saved in /output directory.")
+	divider()
+
+	delete_choice = input("Delete cache files? (y/n)\ny) Yes (default)\nn) No\ny/n> ")
+
+	if delete_choice == "n":
+		divider()
+	else:
+		empty_folder(TEMPORARY_PATH)
 
 
 
